@@ -12,6 +12,7 @@
           :style="{ 'background-image': 'url(' + news.urlToImage + ')'}"
           :url="news.url"
           :publishedAt="news.publishedAt"
+          :author="news.author"
         >
             <div class="titler">
                 <div class="news-title">{{news.title}}</div>

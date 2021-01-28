@@ -11,6 +11,7 @@
           :description="news.description"
           :style="{ 'background-image': 'url(' + news.urlToImage + ')'}"
           :url="news.url"
+          :author="news.author"
           :publishedAt="news.publishedAt"
         >
             <div class="titler">
